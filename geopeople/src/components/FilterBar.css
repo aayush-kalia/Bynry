@@ -1,0 +1,23 @@
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f0f4f8;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.filter-bar input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+.filter-bar input:focus {
+  border-color: #6a5acd; /* violet accent */
+  outline: none;
+}

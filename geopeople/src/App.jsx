@@ -1,11 +1,11 @@
 // src/App.jsx
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import ProfileList from "./components/ProfileList";
 import MapView from "./components/MapView";
 import AdminLogin from "./components/AdminLogin";
-import profilesData from "../src/profiles.json"; // adjust if needed
+import profilesData from "../src/profiles.json";
 
 function App() {
   const [selectedProfile, setSelectedProfile] = useState(null);
@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route
@@ -26,18 +26,16 @@ function App() {
                 profiles={profilesData}
                 onSummaryClick={handleSummaryClick}
               />
-              {/* Pass location, isSelected, and name */}
               <MapView
-                location={selectedProfile?.location}
-                isSelected={true}
-                name={selectedProfile?.name}
+                profiles={profilesData}
+                selectedProfile={selectedProfile}
               />
             </>
           }
         />
         <Route path="/admin" element={<AdminLogin />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 

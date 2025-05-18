@@ -1,0 +1,8 @@
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #f9f9f9;
+}

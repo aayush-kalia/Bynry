@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 2rem;
+  color: #6a0dad;
+  border-bottom: 1px solid #ddd;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #6a0dad;
+}
+
+.admin-link {
+  color: #6a0dad;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid #6a0dad;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.admin-link:hover {
+  background-color: #6a0dad;
+  color: white;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "yearsOfExperience": 5,
+    "domain": "Software Engineer",
+    "city": "Bangalore",
+    "location": { "lat": 12.9716, "lng": 77.5946 },
+    "photo": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sneha Patel",
+    "yearsOfExperience": 3,
+    "domain": "Data Scientist",
+    "city": "Mumbai",
+    "location": { "lat": 19.076, "lng": 72.8777 },
+    "photo": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "yearsOfExperience": 7,
+    "domain": "DevOps Engineer",
+    "city": "Delhi",
+    "location": { "lat": 28.7041, "lng": 77.1025 },
+    "photo": "https://randomuser.me/api/portraits/men/76.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Anjali Verma",
+    "yearsOfExperience": 4,
+    "domain": "UI/UX Designer",
+    "city": "Hyderabad",
+    "location": { "lat": 17.385, "lng": 78.4867 },
+    "photo": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Karan Singh",
+    "yearsOfExperience": 6,
+    "domain": "Product Manager",
+    "city": "Chennai",
+    "location": { "lat": 13.0827, "lng": 80.2707 },
+    "photo": "https://randomuser.me/api/portraits/men/55.jpg"
+  }
+]
